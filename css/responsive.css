@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1000px) {
+    .burgerMenuDP {
+        display: flex !important;
+    }
+
+    .dp-none-in-mobile {
+        display: none !important;
+    }
+
+    .visible-in-mobile {
+        display: block !important;
+    }
+}

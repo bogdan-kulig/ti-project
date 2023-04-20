@@ -1,0 +1,90 @@
+.container {
+    box-shadow: 10px 10px 16px 0px grey inset;
+    padding: 10px 20px;
+    overflow: auto;
+}
+
+.opinion {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #8ecae644;
+}
+
+.opinion>div:first-child {
+    border-bottom: 1px solid grey;
+}
+
+.opinion>div:nth-child(2) {
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+}
+
+.opinion>div:nth-child(2)>div:nth-child(2) {
+    margin: 0 10px;
+    border: 1px solid grey;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #8ecae644;
+}
+
+.task {
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #8ecae644;
+    margin: 10px 0;
+    overflow: hidden;
+    height: 145px;
+}
+
+.task img {
+    height: 150px;
+    width: auto;
+}
+
+.task>div:nth-child(2) {
+    overflow: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.course {
+    text-align: center;
+    width: min-content;
+    border: 1px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: #8ecae644;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course img {
+    width: 300px;
+
+}
+
+.course>div:nth-child(2) {
+    padding: 5px;
+}
+
+.course .title {
+    font-size: 20px;
+}
+
+.course .subtitle {
+    color: #000b;
+}

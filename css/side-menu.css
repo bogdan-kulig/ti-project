@@ -1,0 +1,23 @@
+.side-menu {
+    background-color: lightblue;
+    border-top: 1px solid grey;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.side-menu>div {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.side-menu>div>div {
+    width: max-content;
+    cursor: pointer;
+    padding: 10px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
